@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #707070;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: default;
+}
+
+ul {
+    list-style: none;
+}
+aside {
+    width: 250px;
+    height: 100%;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+}
+
+section {
+    right: 0;
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    left: 250px;
+}
+
+header {
+    border-bottom: solid 2px #efefef;
+    height: 55px;
+}
+
+.main {
+    margin: 0 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+.header-nav {
+    margin-top: 15px !important;
+    list-style: none;
+}
+
+.header-nav li {
+    float: left;
+    margin: 0 5px;
+    font-size: 17px;
+}
+
+.header-nav li a {
+    color: #7a7a7a94;
+    padding: 2px 4px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+.header-nav li small {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.header-nav li a:hover {
+    background: #e3e3e3;
+}
+
+.header-nav li i {
+    font-size: 25px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    border-top: solid 2px #efefef;
+    width: 100%;
+    padding-top: 2px;
+}
+
+.footer-breadcrumb {}
+.footer-breadcrumb li{
+    float: left;
+}
+.footer-breadcrumb li a{
+    color: #7a7a7a94;
+    font-size: 14px;
+}
+
+.footer-breadcrumb li a:hover {
+    color: rgba(23,23,23,0.58);
+}
+
+.item {
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.checkbox {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: none;
+}
+.item a {
+    display: inline-block;
+    padding: 5px 20px;
+}
+.item:hover {
+    background: #ededed;
+}
+.item:hover .checkbox {
+    display: block;
+}
+
+
+.checked {
+    background: #ededed !important;
+}
+
+.checked .checkbox {
+    display: block;
+}
+
+.item .icon {
+    color: #32aae1;
+}
+
+.item .label {
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+.item .total {
+    font-size: 10px;
+    text-align: center;
+    color: #31aae1;
+}
+
+.copyright {
+    float: right;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.copyright a {
+    color: #31aae1;
+}
